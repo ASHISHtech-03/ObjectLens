@@ -1,0 +1,216 @@
+{
+  "classifier": {
+    "accuracy": 1.0,
+    "labels": [
+      "circle",
+      "ellipse",
+      "hexagon",
+      "pentagon",
+      "rectangle",
+      "square",
+      "star",
+      "triangle"
+    ],
+    "confusion_matrix": [
+      [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        60,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        60,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        60,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        60
+      ]
+    ],
+    "report": {
+      "circle": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 100.0
+      },
+      "ellipse": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 60.0
+      },
+      "hexagon": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 60.0
+      },
+      "pentagon": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 60.0
+      },
+      "rectangle": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 60.0
+      },
+      "square": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 60.0
+      },
+      "star": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 60.0
+      },
+      "triangle": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 60.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 520.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 520.0
+      }
+    },
+    "model_comparison": {
+      "svm": {
+        "mean": 0.9992307692307693,
+        "std": 0.001538461538461533
+      },
+      "random_forest": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "knn": {
+        "mean": 0.9992307692307693,
+        "std": 0.001538461538461533
+      },
+      "rule_based": {
+        "mean": 0.9800000000000001,
+        "std": 0.004485347611419491
+      }
+    },
+    "n_train": 1300,
+    "n_test": 520
+  },
+  "end_to_end": {
+    "scenes": 40,
+    "detection_precision": 1.0,
+    "detection_recall": 1.0,
+    "classification_accuracy": 1.0,
+    "colour_accuracy": 1.0,
+    "exact_count_rate": 1.0,
+    "mean_area_error_pct": 0.9689901346855869,
+    "median_area_error_pct": 0.6413285228392768
+  },
+  "robustness": [
+    {
+      "noise_sigma": 5,
+      "recall": 1.0,
+      "precision": 1.0,
+      "classification_accuracy": 1.0
+    },
+    {
+      "noise_sigma": 15,
+      "recall": 1.0,
+      "precision": 1.0,
+      "classification_accuracy": 1.0
+    },
+    {
+      "noise_sigma": 30,
+      "recall": 1.0,
+      "precision": 1.0,
+      "classification_accuracy": 1.0
+    },
+    {
+      "noise_sigma": 45,
+      "recall": 1.0,
+      "precision": 1.0,
+      "classification_accuracy": 1.0
+    }
+  ]
+}
