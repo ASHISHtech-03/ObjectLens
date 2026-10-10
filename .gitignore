@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.vscode/
+.idea/
+
+# generated at run time
+models/*.joblib
+outputs/*
+!outputs/.gitkeep
+*.db
+*.log
